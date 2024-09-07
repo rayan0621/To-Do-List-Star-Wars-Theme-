@@ -1,0 +1,134 @@
+/* General Body and Container */
+body {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Star Jedi', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header-title {
+    font-size: 2.5em;
+    color: #feda4a;
+    text-shadow: 0 0 10px #feda4a;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Title */
+.star-wars-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #feda4a;
+    text-shadow: 0 0 10px #feda4a;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    background-color: #2c2c2c;
+    color: #feda4a;
+}
+
+.btn-add {
+    padding: 10px;
+    background-color: #feda4a;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #e0c842;
+}
+
+/* Task List */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #2c2c2c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    color: #feda4a;
+    transition: background-color 0.3s ease;
+}
+
+.task-list li:hover {
+    background-color: #444444;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Delete Button */
+.btn-delete {
+    background-color: #ff1e1e;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #e01b1b;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #feda4a;
+    text-shadow: 0 0 5px #feda4a;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+}
